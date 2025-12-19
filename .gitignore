@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files - Don't ignore CSV files for deployment
+# *.csv  <-- This should NOT be in .gitignore
+# *.xlsx <-- This can be ignored if not needed for deployment
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+*.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Build artifacts
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
